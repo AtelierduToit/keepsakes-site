@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support — Keepsake</title>
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0a0908;
+            --surface: #141210;
+            --border: rgba(255,255,255,0.08);
+            --accent2: #f59e0b;
+            --text: #f5f0eb;
+            --muted: #9a9088;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "SF Pro Display", "Helvetica Neue", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            border-bottom: 1px solid var(--border);
+            position: sticky;
+            top: 0;
+            background: rgba(10,9,8,0.88);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            z-index: 100;
+        }
+        .nav-logo {
+            font-size: 1.1rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+            color: var(--text);
+            text-decoration: none;
+        }
+        nav a.back {
+            color: var(--muted);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+        nav a.back:hover { color: var(--text); }
+        .content {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 60px 24px 100px;
+        }
+        h1 {
+            font-size: 2rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            margin-bottom: 8px;
+        }
+        .subtitle {
+            font-size: 0.95rem;
+            color: var(--muted);
+            margin-bottom: 48px;
+        }
+        h2 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-top: 40px;
+            margin-bottom: 12px;
+            color: var(--accent2);
+        }
+        p {
+            color: var(--muted);
+            margin-bottom: 16px;
+        }
+        .contact-card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 14px;
+            padding: 24px;
+            margin-bottom: 8px;
+        }
+        .contact-card p { margin-bottom: 8px; }
+        .contact-card a {
+            color: var(--accent2);
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .contact-card a:hover { text-decoration: underline; }
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 32px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        footer p { font-size: 0.85rem; color: var(--muted); }
+        footer a { color: var(--muted); text-decoration: none; font-size: 0.85rem; }
+        footer a:hover { color: var(--text); }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="./index.html" class="nav-logo">Keepsake</a>
+    <a href="./index.html" class="back">← Back</a>
+</nav>
+
+<div class="content">
+    <h1>Support</h1>
+    <p class="subtitle">Get help with Keepsake, or send us a question.</p>
+
+    <div class="contact-card">
+        <p>Have a question, ran into a bug, or want to request a feature?</p>
+        <p><a href="mailto:wouter@atelierdutoit.com">wouter@atelierdutoit.com</a></p>
+        <p>We read every message and typically reply within a couple of days.</p>
+    </div>
+
+    <h2>Importing photos</h2>
+    <p>You can import photos from your library directly inside Keepsake, or select photos in the Photos app and use the Share Sheet to send them straight to Keepsake — on iPhone, iPad, and Mac.</p>
+
+    <h2>Free vs. Pro</h2>
+    <p>Keepsake is free to try with up to 7 photos. Keepsake Pro is a one-time purchase that unlocks unlimited photos and every backdrop — there are no subscriptions.</p>
+    <p>If you've already purchased Pro and it's not showing as unlocked, try Restore Purchases from the upgrade screen inside the app.</p>
+
+    <h2>Recording issues</h2>
+    <p>Keepsake needs camera and microphone access to record. If recording isn't working, check that both are enabled for Keepsake in Settings → Privacy & Security on your device.</p>
+
+    <h2>Exporting</h2>
+    <p>Exported videos are saved to your Photos library (iPhone/iPad) or to a location you choose (Mac). Keep the app open and your device unlocked while an export is in progress.</p>
+
+    <h2>Something else?</h2>
+    <p>Email <a href="mailto:wouter@atelierdutoit.com" style="color: var(--accent2);">wouter@atelierdutoit.com</a> with a description of what's happening — screenshots or screen recordings help a lot if it's a visual issue.</p>
+</div>
+
+<footer>
+    <p>© 2026 Atelier du Toit. All rights reserved.</p>
+    <a href="./index.html">← Back to Keepsake</a>
+</footer>
+
+</body>
+</html>
